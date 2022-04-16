@@ -1,0 +1,22 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 03 Apr 2022 16:10:31 at https://rustwiki.org/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%u%I0H0%kf2A250000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "zh, en, *" https://rustwiki.org/ -O1 "C:\My Websites\RustWiki" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:16:01	Warning: 	Link https://rustwiki.org/cdn-cgi/l/email-protection not scanned (follow robots meta tag)
+18:06:02	Error: 	"Not Found" (404) at link https://github.com/rust-lang/rust/blob/master/src/librustdoc/html/static/themes/ayu.css (from https://rustwiki.org/zh-CN/rustdoc/what-to-include.html)
+18:14:09	Warning: 	Retry after error -4 (No data (connection closed)) at link https://rustwiki.org/zh-CN/core/arch/x86_64/fn._mm_maskz_cvtpd_epu32.html (from https://rustwiki.org/zh-CN/core/arch/x86_64/index.html)
+18:14:10	Warning: 	Retry after error -4 (No data (connection closed)) at link https://rustwiki.org/zh-CN/core/arch/x86_64/fn._mm_maskz_getexp_round_ss.html (from https://rustwiki.org/zh-CN/core/arch/x86_64/index.html)
+18:15:49	Warning: 	Retry after error -4 (No data (connection closed)) at link https://rustwiki.org/zh-CN/core/arch/aarch64/fn.vreinterpret_p64_s64.html (from https://rustwiki.org/zh-CN/core/arch/aarch64/index.html)
+18:15:49	Warning: 	Retry after error -4 (No data (connection closed)) at link https://rustwiki.org/zh-CN/core/arch/aarch64/fn.vreinterpret_s8_s16.html (from https://rustwiki.org/zh-CN/core/arch/aarch64/index.html)
+18:15:49	Warning: 	Retry after error -4 (Connect Error) at link https://rustwiki.org/zh-CN/core/arch/aarch64/fn.vreinterpret_s8_u64.html (from https://rustwiki.org/zh-CN/core/arch/aarch64/index.html)
+18:16:07	Warning: 	Retry after error -2 (Receive Time Out) at link https://rustwiki.org/zh-CN/core/arch/wasm32/fn.u8x16_all_true.html (from https://rustwiki.org/zh-CN/core/arch/wasm32/index.html)
+18:16:07	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://rustwiki.org/zh-CN/core/arch/wasm32/fn.u16x8_splat.html (from https://rustwiki.org/zh-CN/core/arch/wasm32/index.html)
+18:16:09	Warning: 	Retry after error -4 (No data (connection closed)) at link https://rustwiki.org/zh-CN/core/arch/wasm32/fn.u16x8_sub_sat.html (from https://rustwiki.org/zh-CN/core/arch/wasm32/index.html)
+18:19:38	Warning: 	Retry after error -4 (No data (connection closed)) at link https://rustwiki.org/zh-CN/core/arch/aarch64/fn.vreinterpret_s8_u64.html (from https://rustwiki.org/zh-CN/core/arch/aarch64/index.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 hours 9 minutes 18 seconds : 22135 links scanned, 22124 files written (425733083 bytes overall) [112730396 bytes received at 14530 bytes/sec], 412408781 bytes transferred using HTTP compression in 21877 files, ratio 19%, 99.3 requests per connection
+(1 errors, 10 warnings, 0 messages)
